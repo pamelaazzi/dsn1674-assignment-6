@@ -6,6 +6,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0em;
+
+}
+
 h2{
   text-align: center;
   color: white;
@@ -17,23 +22,32 @@ h2{
 .left{
   width:125px;
   padding: 0;
-}
-
-.brain{
-  width: 46px;
+  position: absolute;
+  left: 2.2em;
   transition: all 200ms linear;
-  position: relative;
 }
 
 .right{
   width: 125px;
   transition: all 200ms linear;
+  margin-top: 0;
+  position: absolute;
+  right: 2.2em;
+}
+
+.brain{
+  width: 46px;
+  transition: all 200ms linear;
+  position: absolute;
+  left: 8.5em;
+  top: 4em;
 }
 
 .body{
   width: 320px;
-  padding-left: 7em;
   display: block;
+  margin: 0 auto;
+  padding-top: 37px;
 }
 
 header {
@@ -41,6 +55,21 @@ header {
   text-align: center;
 }
 
-.right:hover {
-bottom: 1em;
+.robot:hover .right {
+right: 1em;
+}
+
+.robot:hover .left {
+left: 1em;
+}
+
+.robot:hover .brain {
+top: 1em;
+}
+
+.robot {
+position: relative;
+width: 320px;
+margin: 0 auto;
+
 }
