@@ -8,15 +8,17 @@ html {
 
 body {
   margin: 0em;
-
+  font-family: 'Contrail One', cursive;
 }
 
 h2{
   text-align: center;
   color: white;
-  background-color: navy;
-  padding: 1em;
+  background-color: #19212F;
+  font-size: 2rem;
+  padding: 0.5em;
   margin: 0;
+  box-shadow: inset 0 3px 6px rbga (0,0,0 0.7);
 }
 
 .left{
@@ -51,7 +53,7 @@ h2{
 }
 
 header {
-  background-color: pink;
+  background-color: #2C3950;
   text-align: center;
 }
 
