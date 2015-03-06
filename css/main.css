@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  background-color: navy;
+  padding: 1em;
+  margin: 0;
+}
+
+.left{
+  width:125px;
+  padding: 0;
+}
+
+.brain{
+  width: 46px;
+  transition: all 200ms linear;
+  position: relative;
+}
+
+.right{
+  width: 125px;
+  transition: all 200ms linear;
+}
+
+.body{
+  width: 320px;
+  padding-left: 7em;
+  display: block;
+}
+
+header {
+  background-color: pink;
+  text-align: center;
+}
+
+.right:hover {
+bottom: 1em;
+}
